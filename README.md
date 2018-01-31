@@ -21,9 +21,9 @@
 </pre>
 
 <pre>
-3. Call decode method and decoder instance returns object of List<Map<String,String>>
+3. Call decode method and decoder instance returns object of List< Map< String,String > >
 
     byte[] data = .. ; // Data you want to decode 
-    List<Map<String,String>> result = decoder.decode(data);
+    List< Map< String,String > > result = decoder.decode(data);
 
 </pre>
