@@ -1,4 +1,4 @@
-#### ASTERIXDecoder
+## ASTERIXDecoder
 - - -
 > ASTERIXDecoder is a java library for decoding/parsing of byte array data which is compliant with EUROCONTROL's ASTERIX specification.
 
