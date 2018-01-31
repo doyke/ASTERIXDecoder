@@ -19,7 +19,7 @@
 <pre>
 1. Add library to your CLASSPATH and declare Import Library
 
-    import net.aviation.yts.asterix;
+    import net.aviation.yts.asterix.*;
 </pre>
 
 <pre>
