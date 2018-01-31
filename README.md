@@ -9,9 +9,8 @@
  #### How to use
 <pre>
 1. Add library to your CLASSPATH and declare Import Library
-<code>
-import net.aviation.yts.asterix;
-</code>
+
+    import net.aviation.yts.asterix;
 </pre>
 
 <pre>
@@ -22,7 +21,7 @@ ASTERIXDecoder decoder = new ASTERIXDecoder();
 </pre>
 
 <pre>
-3. Call decode method and decoder instance returns object of List<Map<String,String>>
+3. Call decode method and decoder instance returns object of <code>List<Map<String,String>></code>
 <code>
 byte[] data = .. ; // Data you want to decode 
 List<Map<String,String>> result = decoder.decode(data);
