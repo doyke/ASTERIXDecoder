@@ -7,6 +7,14 @@
 * Intuitive/Simple API
 * Do not need extra 3rd party library
 
+#### Supported ASTERIX Category 
+* Cat 010
+* Cat 011
+* Cat 034
+* Cat 048
+* Cat 062
+* (You can add other categories by simply adding your own xml files)
+
  #### How to use
 <pre>
 1. Add library to your CLASSPATH and declare Import Library
