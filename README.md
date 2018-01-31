@@ -1,4 +1,5 @@
 #### ASTERIXDecoder
+- - -
 > ASTERIXDecoder is a java library for decoding/parsing of byte array data which is compliant with EUROCONTROL's ASTERIX specification.
 
 #### Features
@@ -21,7 +22,7 @@
 </pre>
 
 <pre>
-3. Call decode method and decoder instance returns object of List< Map< String,String > >
+3. Call decode method and decoder instance returns object of List< Map< String,String > > type.
 
     byte[] data = .. ; // Data you want to decode 
     List< Map< String,String > > result = decoder.decode(data);
