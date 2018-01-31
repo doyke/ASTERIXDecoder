@@ -15,15 +15,15 @@
 
 <pre>
 2. Create decoder instance of ASTERIXDecoder class
-<code>
-ASTERIXDecoder decoder = new ASTERIXDecoder();
-</code>
+
+    ASTERIXDecoder decoder = new ASTERIXDecoder();
+
 </pre>
 
 <pre>
 3. Call decode method and decoder instance returns object of <code>List<Map<String,String>></code>
-<code>
-byte[] data = .. ; // Data you want to decode 
-List<Map<String,String>> result = decoder.decode(data);
-</code>
+
+    byte[] data = .. ; // Data you want to decode 
+    List<Map<String,String>> result = decoder.decode(data);
+
 </pre>
