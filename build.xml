@@ -18,14 +18,14 @@
 *****************************************************************************-->
 
 <project name="ZRDD Aviation ASTERIX Decoder" basedir="." default="">
-	<property name="src.dir" location="."/>
+    <property name="src.dir" location="."/>
     <property name="src.java.dir" location="${src.dir}/src"/>
     <property name="src.test.dir" location="${src.dir}/test"/>
     <property name="target.dir" location="build"/>
     <property name="target.classes.java.dir" location="${target.dir}/classes"/>
     <property name="target.classes.test.dir" location="${target.dir}/test/classes"/>
     <property name="target.report.dir" location="${target.dir}/report"/>
-	<property name="spec.dir" value="${src.dir}/spec" />
+    <property name="spec.dir" value="${src.dir}/spec" />
 	<property name="lib.dir" value="${src.dir}/lib"/>
 	<property name="conf.dir" value="${src.dir}/conf" />
 	<property name="deploy.dir" value="${src.dir}/deploy"/>
